@@ -85,8 +85,11 @@ const Footer = () => {
           <p className="text-sm text-white/40 font-body">
             © {new Date().getFullYear()} Along Roofing Sheets. All rights reserved.
           </p>
-          <div className="flex items-center gap-2 text-sm text-white/40 font-body">
-            Proudly Zimbabwean <span className="text-secondary ml-1">🇿🇼</span>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6 text-sm text-white/40 font-body">
+            <p>Developed by <span className="text-secondary font-semibold">Jaeger Media</span></p>
+            <div className="flex items-center gap-2">
+              Proudly Zimbabwean <span className="text-secondary ml-1">🇿🇼</span>
+            </div>
           </div>
         </div>
       </div>
