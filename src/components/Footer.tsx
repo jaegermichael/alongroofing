@@ -74,8 +74,8 @@ const Footer = () => {
                   <MapPin className="w-3.5 h-3.5 text-secondary" />
                 </div>
                 <div>
-                  <p>1515 Tourle Road,</p>
-                  <p>New Adbernie, Harare</p>
+                  <p>1515 Tourle Road, New Adbernie,</p>
+                  <p>Southerton, near Southerton Police</p>
                 </div>
               </li>
             </ul>

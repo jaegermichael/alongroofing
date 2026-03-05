@@ -34,9 +34,15 @@ const HeroSection = () => {
             <em className="not-italic font-semibold text-secondary/90">"Roofing solutions for a better tomorrow"</em> — supplying quality IBR, chromadek &amp; tile sheets to Harare and across Zimbabwe.
           </p>
 
-          <div className="flex items-center gap-3 text-white/60 text-sm font-body font-medium opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            <MapPin className="w-5 h-5 text-secondary" />
-            Tynward Industrial Area, Kirkman Rd · New Adbernie, Harare
+          <div className="space-y-1.5 opacity-0 animate-fade-up" style={{ animationDelay: "0.4s" }}>
+            <div className="flex items-center gap-3 text-white/60 text-sm font-body font-medium">
+              <MapPin className="w-4 h-4 text-secondary shrink-0" />
+              Tynward Industrial Area, Kirkman Rd, Harare
+            </div>
+            <div className="flex items-center gap-3 text-white/60 text-sm font-body font-medium">
+              <MapPin className="w-4 h-4 text-secondary shrink-0" />
+              1515 Tourle Road, New Adbernie, Southerton, near Southerton Police
+            </div>
           </div>
 
           <div className="flex flex-wrap gap-4 pt-4 opacity-0 animate-fade-up" style={{ animationDelay: "0.5s" }}>

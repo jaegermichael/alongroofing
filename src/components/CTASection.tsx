@@ -22,7 +22,7 @@ const CTASection = () => {
           <span className="text-white/20 hidden sm:block">|</span>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-secondary" />
-            1515 Tourle Road, New Adbernie, Harare
+            1515 Tourle Road, New Adbernie, Southerton, near Southerton Police
           </div>
         </div>
         <div className="flex flex-wrap justify-center gap-6 pt-4">
